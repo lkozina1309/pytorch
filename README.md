@@ -1,19 +1,17 @@
-# Pytorch
-
-Computer Vision and Reinforcement Learning scripts written in Pytorch.
+# Tensorflow
+Deep learning with Pythorch.
 
 ## Getting Started
-
-Pytorch is a library with scripts for Computer Vision and Reinforcement. There are some videos and images used in the scripts so You can download and use them.
+Pytorch for image classification and reinforcement learning.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Python 
-OpenCV
-Numpy
+Python 3.7–3.9
+pytorch
+numpy
+scipy
+matplotlib
 ```
 
 ### Webpage
@@ -22,6 +20,8 @@ https://lukakozina6.wixsite.com/cvlab
 
 ### Description
 
-OpenCV (Open Source Computer Vision Library) is a library of programming functions mainly aimed at real-time computer vision. OpenCV can be used as image and video processing tool as well as tool for more complicated applications. 
+Pytorch is a free and open-source software library for machine learning and artificial intelligence. Deep learning (also known as deep structured learning) is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised.
 
-My repository containes simple scripts for image, video and stream processing and some detection scripts, including scripts using DNN module. They are useful when making some bigger project, I can adapt them and use them there without need to write everything from the start.
+Repository has 2 parts, CNN and RL. Convolutional neural networks (CNN) contains scripts used for computer vision and Reinforcement Learning (RL) uses gym ( https://gym.openai.com/) in order to maximize the notion of cumulative reward.
+
+Repository CNN has scripts used for classification of images. These scripts can be used in more serious projects.
